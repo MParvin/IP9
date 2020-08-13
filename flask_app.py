@@ -5,3 +5,5 @@ app = Flask(__name__)
 @app.route('/')
 def default_index():
    return request.remote_addr
+
+app.run()
