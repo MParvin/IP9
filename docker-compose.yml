@@ -4,4 +4,5 @@ services:
         ports:
             - '5000:5000'
         container_name: ip9
-        image: 'ip9:1'
+        restart: always
+        image: 'mparvin/ip9'
