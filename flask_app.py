@@ -6,4 +6,5 @@ app = Flask(__name__)
 def default_index():
    return request.remote_addr
 
-app.run()
+if __name__ == "__main__":
+   app.run(debug=False, port=5000, host='0.0.0.0')
