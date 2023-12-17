@@ -11,7 +11,7 @@ func main() {
 
 	r.GET("/", func(c *gin.Context) {
 		user_ip := c.ClientIP()
-		c.String(http.StatusOK, "%s", user_ip)
+		c.String(http.StatusOK, "%s\n", user_ip)
 	})
 
 	r.Run()
