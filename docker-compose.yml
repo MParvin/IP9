@@ -9,5 +9,6 @@ services:
       - ./nginx/ip9.conf:/etc/nginx/conf.d/default.conf
   ip9:
     image: mparvin/ip9:latest
+    build: .
     volumes:
       - ./ip9:/app
