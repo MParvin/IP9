@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   ip9:
     image: mparvin/ip9:latest
