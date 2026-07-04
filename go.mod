@@ -2,7 +2,10 @@ module github.com/mparvin/IP9
 
 go 1.20
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/lionsoul2014/ip2region/binding/golang v0.0.0-20260630140118-a99989343ebd
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
